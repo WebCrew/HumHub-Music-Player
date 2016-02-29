@@ -1,6 +1,6 @@
 # HumHub - Music-Player
 
-A module which should add a panel on the HumHub Dashboard, with a music player widget to play Soundcloud playlists.
+A module which should add a panel on the HumHub Dashboard, with a music player widget to play Soundcloud playlists and also internet radio streams.
 
 The images serve as an example, how the finished module should look like:
 
