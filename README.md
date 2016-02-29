@@ -2,7 +2,7 @@
 
 A module which should add a panel on the HumHub Dashboard, with a music player widget to play Soundcloud playlists.
 
-The images serve as an example, how the finished module should look:
+The images serve as an example, how the finished module should look like:
 
 **Minimal View:**
 
