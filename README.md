@@ -25,3 +25,10 @@ Kind regards,  Andreas Holzer
 ##Important Note: 
 
 **Inspired by Dwarfs and Goblins :)**
+
+
+##Included Scripts and huge thanks to:
+
+AmplitudeJS https://open.521dimensions.com/amplitudejs
+
+and to jQuery
