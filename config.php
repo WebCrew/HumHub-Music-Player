@@ -4,7 +4,10 @@ use humhub\modules\dashboard\widgets\Sidebar;
 
 return [
   'id'        => 'music_player',
-  'class'     => 'humhub\modules\music_player\Module',
-  'namespace' => 'humhub\modules\music_player',
+  'class'     => 'humhub\modules\musicplayer\Module',
+  'namespace' => 'humhub\modules\musicplayer',
+    'events' => [
+        ['class' => Sidebar::className(), 'event' => Sidebar::EVENT_INIT, 'callback' => ['humhub\modules\musicplayer\Module', 'onSidebarInit']],
+    ],
 ];
 ?>
