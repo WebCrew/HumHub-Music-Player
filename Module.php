@@ -1,6 +1,6 @@
 <?php
 
-namespace humhub\modules\music_player;
+namespace humhub\modules\musicplayer;
 
 use humhub\models\Setting;
 use Yii;
@@ -8,10 +8,10 @@ use yii\helpers\Url;
 
 class Module extends \humhub\components\Module {
 
-  const NAME = 'music_player';
+  const NAME = 'musicplayer';
 
   /**
-   * On build of the dashboard sidebar widget, add the music_player widget if module is enabled.
+   * On build of the dashboard sidebar widget, add the music player widget if module is enabled.
    *
    * @param type $event
    */
@@ -29,7 +29,7 @@ class Module extends \humhub\components\Module {
   }
 
   public function getConfigUrl() {
-    return Url::to(['/music_player/config/config']);
+    return Url::to(['/musicplayer/config/config']);
   }
 
   /**
