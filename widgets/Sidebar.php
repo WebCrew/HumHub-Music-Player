@@ -1,8 +1,8 @@
 <?php
 
-namespace humhub\modules\music_player\widgets;
+namespace humhub\modules\musicplayer\widgets;
 
-use humhub\modules\music_player\models\MusicPlayer;
+use humhub\modules\musicplayer\models\MusicPlayer;
 
 class Sidebar extends \humhub\components\Widget {
 

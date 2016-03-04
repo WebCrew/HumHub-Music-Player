@@ -3,11 +3,11 @@
 humhub\modules\music_player\Assets::register($this);
 
   <!-- Display panel menu widget -->
-  <?php humhub\widgets\PanelMenu::widget(['id' => 'music_player-panel']); ?>
+  <?php humhub\widgets\PanelMenu::widget(['id' => 'musicplayer-panel']); ?>
 
   <div class="panel-heading">
     <?php echo Yii::t(
-      'music_playersModule.base',
+      'musicplayerModule.base',
       '<strong>Music</strong> Player'
     ); ?>
   </div>

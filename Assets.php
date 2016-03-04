@@ -6,7 +6,7 @@
  * @license   https://www.humhub.com/licences
  */
 
-namespace humhub\modules\music_player;
+namespace humhub\modules\musicplayer;
 
 use yii\web\AssetBundle;
 
