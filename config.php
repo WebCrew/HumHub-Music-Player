@@ -3,7 +3,7 @@
 use humhub\modules\dashboard\widgets\Sidebar;
 
 return [
-  'id'        => 'music_player',
+  'id'        => 'musicplayer',
   'class'     => 'humhub\modules\musicplayer\Module',
   'namespace' => 'humhub\modules\musicplayer',
     'events' => [
