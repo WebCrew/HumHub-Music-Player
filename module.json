@@ -1,5 +1,5 @@
 {
-    "id": "music_player",
+    "id": "musicplayer",
     "name": "Music Player",
     "description": "Adds a panel on the Dashboard, to play Soundcloud Playlists.",
     "keywords": ["music", "player", "spaces", "widget", "dashboard"],
