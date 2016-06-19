@@ -17,10 +17,13 @@ class Assets extends AssetBundle {
   ];
 
   public $css = [
+    'style.css.'
+  ];
+  
+  public $js = [
     'amplitude.js.',
     'amplitude.min.js.',
-    'jquery.min.js.',
-    'style.css.',
+    'jquery.min.js.'
   ];
 
   public function init() {
