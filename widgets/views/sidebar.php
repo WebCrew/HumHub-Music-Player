@@ -1,6 +1,6 @@
 <?php
 
-humhub\modules\music_player\Assets::register($this);
+humhub\modules\musicplayer\Assets::register($this);
 
   <!-- Display panel menu widget -->
   <?php humhub\widgets\PanelMenu::widget(['id' => 'musicplayer-panel']); ?>
