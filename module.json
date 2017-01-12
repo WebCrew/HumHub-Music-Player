@@ -3,7 +3,7 @@
     "name": "Music Player",
     "description": "Adds a panel on the Dashboard, to play Soundcloud Playlists.",
     "keywords": ["music", "player", "spaces", "widget", "dashboard"],
-	"version": "0.2",
+	"version": "1.0.2",
 	"authors": [
 		{
 			"name": "Andreas Holzer"
@@ -13,6 +13,6 @@
 	"license": "GNU AGP3",
 	"time": "2016-03-01",
 	"humhub": {
-		"minVersion": "0.8.0"
+		"minVersion": "1.0"
 	}
 }
