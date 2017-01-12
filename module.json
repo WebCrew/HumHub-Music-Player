@@ -10,7 +10,7 @@
 		}
 	],
 	"homepage": "https://github.com/WebCrew/",
-	"license": "MIT",
+	"license": "GNU AGP3",
 	"time": "2016-03-01",
 	"humhub": {
 		"minVersion": "0.8.0"
