@@ -13,7 +13,7 @@ class MusicPlayerConfigureForm extends \yii\base\Model
     public function attributeLabels()
     {
         return array(
-            'panelTitle' => Yii::t('OnlineusersModule.base', 'The panel title for the dashboard widget.'),
+            'panelTitle' => Yii::t('MusicPlayerModule.base', 'The panel title for the dashboard widget.'),
         );
     }
 }
