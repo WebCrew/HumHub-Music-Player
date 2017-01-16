@@ -1,18 +1,10 @@
 {
     "id": "musicplayer",
     "name": "Music Player",
-    "description": "Adds a panel on the Dashboard, to play Soundcloud Playlists.",
-    "keywords": ["music", "player", "spaces", "widget", "dashboard"],
-	"version": "1.0.2",
-	"authors": [
-		{
-			"name": "Andreas Holzer"
-		}
-	],
-	"homepage": "https://github.com/WebCrew/",
-	"license": "GNU AGP3",
-	"time": "2016-03-01",
-	"humhub": {
-		"minVersion": "1.0"
-	}
+    "description": "Adds a Soundcloud or Radio Stream Music Player Panel to HumHub`s sidebar.",
+    "keywords": ["musicplayer", "panel"],
+    "version": "0.0.2",
+    "humhub": {
+    "minVersion": "1.0"
+    }
 }
