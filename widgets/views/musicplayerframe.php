@@ -55,98 +55,30 @@ use humhub\models\Setting;
   </div>
 
 </div>
-  <script type="text/javascript">
-    Amplitude.init({
-      "songs": [
+
+
+Amplitude.init({
+    "volume": .35,
+    "songs": [
         {
-          "name": "Emulator",
-          "artist": "The Crystal Method",
-          "album": "Emulator (Single)",
-          "url": "https://soundcloud.com/the-crystal-method/emulator",
-          "cover_art_url": "/song_TheCrystalMethod-Emulator.jpg"
+            "name": "Burial",
+            "artist": "YOGI feat Pusha T - Burial",
+            "album": "YOGI remixes",
+            "url": "https://soundcloud.com/yogitrf/yogi-feat-pusha-t-burial-skrillex-trollphace-remix",
+            "cover_art_url": "http://upload.wikimedia.org/wikipedia/commons/3/3a/RHCP_Logo.svg"
         },
         {
-          "name": "Symphonica (Thibault Remix)",
-          "artist": "Thibault",
-          "album": "Nicky Romero Remixes",
-          "url": "https://soundcloud.com/thibaultmusic/nicky-romero-symphonica",
-          "cover_art_url": "/song_NickyRomero-SymphonicaThibaultRemix.jpg"
+            "name": "Hell Of A Night",
+            "artist": "Schoolboy Q (YOGI Remix)",
+            "album": "YOGI remixes",
+            "url": "https://soundcloud.com/yogitrf/schoolboy-q-hell-of-a-night"
         },
         {
-          "name": "Burial feat. Pusha T",
-          "artist": "Yogi",
-          "album": "YOGI",
-          "url": "https://soundcloud.com/yogitrf/yogi-burial-feat-pusha-t",
-          "cover_art_url": "/song_YogiBurial.jpg"
+            "name": "Christian Bale",
+            "artist": "YOGI Feat. Casey Veggies, Knytro, Sway, KSI, Raptor",
+            "album": "Christian Bale feat. Casey Veggies, Knytro, Sway, KSI, Raptor",
+            "url": "https://soundcloud.com/yogitrf/yogi-christian-bale-feat-casey-veggies-knytro-sway-ksi-raptor?in=yogitrf/sets/burial-ep"
         }
-      ],
-      "soundcloud_client": '7f4a6ed1488c1ebdf31600767b9b6350',
-      "default_album_art": "/no-cover-large.png"
-    });
-    var expanded = false;
-    var playlistEpxanded = false;
-    /*
-      jQuery Visual Helpers
-    */
-    $('#small-player').hover(function(){
-      $('#small-player-middle-controls').show();
-      $('#small-player-middle-meta').hide();
-    }, function(){
-      $('#small-player-middle-controls').hide();
-      $('#small-player-middle-meta').show();
-    });
-    $('#top-large-album').hover(function(){
-      $('#top-header').show();
-      $('#small-player').show();
-    }, function(){
-      if( !$('#top-header').is(':hover') && !$('#small-player').is(':hover') ){
-        $('#top-header').fadeOut(1000);
-        $('#small-player').fadeOut(1000);
-      }
-    });
-    $('#top-header').hover(function(){
-      $('#top-header').show();
-      $('#small-player').show();
-    }, function(){
-    });
-    /*
-      Toggles Album Art
-    */
-    $('#small-player-toggle').click(function(){
-      $('.hidden-on-collapse').show();
-      $('.hidden-on-expanded').hide();
-      /*
-        Is expanded
-      */
-      expanded = true;
-      $('#small-player').css('border-top-left-radius', '0px');
-      $('#small-player').css('border-top-right-radius', '0px');
-    });
-    $('#top-header-toggle').click(function(){
-      $('.hidden-on-collapse').hide();
-      $('.hidden-on-expanded').show();
-      /*
-        Is collapsed
-      */
-      expanded = false;
-      $('#small-player').css('border-top-left-radius', '5px');
-      $('#small-player').css('border-top-right-radius', '5px');
-    });
-    $('.playlist-toggle').click(function(){
-      if( playlistEpxanded ){
-        $('#small-player-playlist').hide();
-        $('#small-player').css('border-bottom-left-radius', '5px');
-        $('#small-player').css('border-bottom-right-radius', '5px');
-        $('#large-album-art').css('border-bottom-left-radius', '5px');
-        $('#large-album-art').css('border-bottom-right-radius', '5px');
-        playlistEpxanded = false;
-      }else{
-        $('#small-player-playlist').show();
-        $('#small-player').css('border-bottom-left-radius', '0px');
-        $('#small-player').css('border-bottom-right-radius', '0px');
-        $('#large-album-art').css('border-bottom-left-radius', '0px');
-        $('#large-album-art').css('border-bottom-right-radius', '0px');
-        playlistEpxanded = true;
-      }
-    })
-  </script>
+    ],
+    "soundcloud_client": 'YOUR KEY'
+});
