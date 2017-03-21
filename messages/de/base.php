@@ -1,6 +1,9 @@
 <?php
 return [
+    '<strong>Music Player</strong>' => '<strong>Musik Player</strong>',
     'Musicplayer' => 'Musik Player',
-    'sort' => 'Musik Player Sortierungs- Anordung',
-    'save' => 'Speichern',
+    'sort' => 'Sortieren',
+    'eg:  "99999999"' => 'eg:  "99999999"',
+    'Widget positioning' => 'Widget positioning',
+    'Save' => 'Speichern',
 ];
